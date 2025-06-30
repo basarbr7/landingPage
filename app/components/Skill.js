@@ -19,10 +19,10 @@ const Skill = () => {
         <Container className={"pt-[90px] pb-[70px]"}>
             <div className='flex'>
                 <Icon className={"w-11 h-11"}> <GoArrowDown /></Icon>
-                <Button className={"px-5 py-2  text-base"} label={"Why Choose me"} iconClass={"hidden"}/>
+                <Button className="px-5 py-2  text-base" label="Why Choose me" iconClass="hidden"/>
             </div>
             <div className='mt-10 flex justify-between '>
-                <h2 className='max-w-[516px] font-sporting text-[58px] font-bold leading-[86px] tracking-[-3%]'>My Extensive List of Skills</h2>
+                <h2 className='max-w-[516px] font-sporting text-[58px] font-bold leading-[86px] tracking-[-0.03em]'>My Extensive List of Skills</h2>
                 <div className='max-w-[510px] flex flex-col justify-items-end '>
                     <p className='  font-sporting text-lg text-right font-normal leading-[34px] mb-5'>Building the worlds best marketing Your trusted partner for strategy, design, and dev.</p>
                     <div className='h-[1px]  bg-[#535353]'></div>

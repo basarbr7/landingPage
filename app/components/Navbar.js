@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="bg-[#00000003] absolute w-full top-0 left-0 ">
         <Container className="flex items-center justify-between py-7">
-           <div className="uppercase text-[34px] font-extrabold leading-[34px] -tracking-[2px] ">develop.me</div>
+           <div className="uppercase text-[34px] font-extrabold leading-[34px] -tracking-[0.02em] ">develop.me</div>
            <div className="flex gap-[67px] items-center ">
                 <ul className="flex gap-9">
                     {
@@ -26,7 +26,7 @@ const Navbar = () => {
                         )
                     }
                 </ul>
-                <Button className={"font-sporting pr-3"} iconClass={"w-[38px] h-[38px]"} icon={<BsArrowRight/>} label={"Start project"} labelClass={"text-base "}/>
+                <Button className="font-sporting pr-3" iconClass="w-[38px] h-[38px]" icon={<BsArrowRight/>} label="Start project" labelClass="text-base "/>
            </div>
         </Container>
     </nav>
