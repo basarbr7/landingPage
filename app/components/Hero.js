@@ -38,7 +38,7 @@ const Hero = () => {
           
           <div className='rightside flex flex-col gap-10'>
             <p className='max-w-[703px] font-sporting font-normal text-lg leading-[33px] '>
-              Building the world's best marketing websites for over a decade. Your trusted partner for strategy, design, and dev.
+              Building the worlds best marketing websites for over a decade. Your trusted partner for strategy, design, and dev.
             </p>
             <Button className="max-w-[247px] font-sporting text-base tracking-[-0.04em]" iconClass={"w-[54px] h-[54px] "} icon={<IoCall />} label={"Schedule a Call"}/>
           </div>
