@@ -7,9 +7,9 @@ import { IoCall } from "react-icons/io5";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen  bg-[url('/images/herosvg.svg')] bg-no-repeat bg-cover bg-cente">
+    <section className="min-h-screen  bg-[url('/images/herosvg.svg')] bg-no-repeat bg-cover bg-center">
       <Container className="flex flex-col gap-[50px] pt-[209px] pb-[191px]">
-        <div className='max-w-[1128px] text-[78px] font-bold tracking-[-3px] font-sporting flex flex-col gap-4'>
+        <div className='max-w-[1128px] text-[78px] font-bold tracking-[-0.03em] font-sporting flex flex-col gap-4'>
           <h1 className='leading-[126px]'>
             Trusted 
             <span className='bg-black text-white rounded-[11px] px-2 py-1 mx-1 inline-block align-middle'>
