@@ -4,6 +4,7 @@ import Icon from './Icon'
 import { GoArrowDown, GoArrowLeft, GoArrowRight } from "react-icons/go";
 import Button from './Button';
 import Card from './Card';
+import Image from 'next/image';
 
 
 const cardItems =[
@@ -34,8 +35,8 @@ const Skill = () => {
             <div className='flex gap-[10px] mt-10 '>
                 {
                     cardItems.map((item)=>{
-                        return <Card key={item.id} className={"bg-[#ffffff]/8 py-12 px-9 hover:rotate-[6.74deg] "}>
-                            <img src={item.src}  alt='react image'/>
+                        return <Card key={item.id} className={"bg-[#ffffff]/8 py-12 px-9 nth-[2]:rotate-[6.74deg] "}>
+                            <Image src={item.src}  alt='react-image' width={64} height={64}/>
                             <h4 className='mt-[35px] mb-5 '>{item.title}</h4>
                             <p>{item.desc}</p>
                         </Card>
